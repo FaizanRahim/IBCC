@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ================================
+   BODY
+================================ */
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background: #ffffff;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #292d32;
+}
+
+
+/* ================================
+   MAIN PAGE
+================================ */
+
+.page {
+  width: 100%;
+
+  max-width: 1180px;
+
+  margin: 0 auto;
+
+  padding: 15px 0 50px;
+
+  text-align: center;
+}
+
+
+/* ================================
+   LOGO
+================================ */
+
+.logo {
+  display: block;
+
+  width: 158px;
+  height: auto;
+
+  margin: 0 auto 20px;
+}
+
+
+/* ================================
+   MAIN HEADING
+================================ */
+
+h1 {
+  margin: 0 0 10px;
+
+  font-size: 36px;
+
+  line-height: 1.2;
+
+  font-weight: 700;
+
+  color: #292d32;
+
+  text-align: center;
+}
+
+
+/* ================================
+   GREEN VERIFICATION TEXT
+================================ */
+
+.verified {
+  margin: 0 0 31px;
+
+  font-size: 27px;
+
+  line-height: 1.25;
+
+  font-weight: 700;
+
+  color: #07820a;
+
+  text-align: center;
+}
+
+
+/* ================================
+   CERTIFICATE TABLE
+================================ */
+
+.certificate-table {
+  width: 812px;
+
+  max-width: calc(100% - 30px);
+
+  margin: 0 auto;
+
+  padding: 0;
+
+  border-collapse: collapse;
+
+  border-spacing: 0;
+
+  table-layout: fixed;
+
+  text-align: left;
+
+  font-size: 16px;
+
+  line-height: 1.35;
+
+  font-weight: 700;
+}
+
+
+/* ================================
+   ROWS
+================================ */
+
+.certificate-table tr {
+  width: 100%;
+
+  height: 37px;
+}
+
+
+/* Alternate background */
+.certificate-table tr:nth-child(even) {
+  background: #d5f0f2;
+}
+
+.certificate-table tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+
+/* ================================
+   ALL CELLS
+================================ */
+
+.certificate-table td {
+  height: 37px;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  vertical-align: middle;
+
+  white-space: normal;
+}
+
+
+/* ================================
+   LEFT COLUMN
+   All labels align together
+================================ */
+
+.certificate-table td:first-child {
+  width: 50%;
+
+  padding-left: 10px;
+
+  padding-right: 27px;
+
+  text-align: right;
+
+  vertical-align: middle;
+
+  font-weight: 700;
+}
+
+
+/* ================================
+   RIGHT COLUMN
+   All values align together
+================================ */
+
+.certificate-table td:last-child {
+  width: 50%;
+
+  padding-left: 18px;
+
+  padding-right: 10px;
+
+  text-align: left;
+
+  vertical-align: middle;
+
+  font-weight: 700;
+}
+
+
+/* ================================
+   NOTE
+================================ */
+
+.notice {
+  width: 812px;
+
+  max-width: calc(100% - 30px);
+
+  margin: 26px auto 0;
+
+  padding: 0;
+
+  text-align: left;
+
+  font-size: 15px;
+
+  line-height: 1.55;
+
+  font-weight: 400;
+
+  color: #292d32;
+}
+
+
+/* ================================
+   NOTE LABEL
+================================ */
+
+.notice strong {
+  font-weight: 400;
+}
+
+
+/* ================================
+   DEMO CONTACT
+================================ */
+
+.contact {
+  width: 812px;
+
+  max-width: calc(100% - 30px);
+
+  margin: 17px auto 0;
+
+  text-align: center;
+
+  color: #07820a;
+
+  font-size: 15px;
+
+  line-height: 1.4;
+
+  font-weight: 700;
+}
+
+
+/* ================================
+   QR SECTION
+================================ */
+
+.qr-section {
+  margin-top: 35px;
+
+  text-align: center;
+}
+
+
+.qr-section h2 {
+  margin: 0 0 16px;
+
+  font-size: 20px;
+
+  line-height: 1.3;
+
+  font-weight: 700;
+}
+
+
+#qrcode {
+  display: inline-block;
+
+  padding: 10px;
+
+  background: #ffffff;
+
+  border: 1px solid #d5d5d5;
+}
+
+
+.qr-link {
+  display: block;
+
+  width: 100%;
+
+  max-width: 600px;
+
+  margin: 12px auto 0;
+
+  color: #075b35;
+
+  font-size: 14px;
+
+  line-height: 1.4;
+
+  word-break: break-all;
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 850px) {
+
+  .page {
+    width: 100%;
+
+    padding: 15px 10px 40px;
+  }
+
+
+  .logo {
+    width: 130px;
+
+    margin-bottom: 18px;
+  }
+
+
+  h1 {
+    font-size: 28px;
+  }
+
+
+  .verified {
+    font-size: 21px;
+
+    line-height: 1.3;
+
+    margin-bottom: 25px;
+  }
+
+
+  .certificate-table {
+    width: 100%;
+
+    max-width: 100%;
+
+    font-size: 14px;
+  }
+
+
+  .certificate-table tr {
+    height: auto;
+  }
+
+
+  .certificate-table td {
+    height: auto;
+
+    padding-top: 9px;
+
+    padding-bottom: 9px;
+  }
+
+
+  .certificate-table td:first-child {
+    width: 50%;
+
+    padding-left: 5px;
+
+    padding-right: 12px;
+
+    text-align: right;
+  }
+
+
+  .certificate-table td:last-child {
+    width: 50%;
+
+    padding-left: 12px;
+
+    padding-right: 5px;
+
+    text-align: left;
+  }
+
+
+  .notice {
+    width: 100%;
+
+    max-width: 100%;
+
+    margin-top: 22px;
+
+    font-size: 13px;
+  }
+
+
+  .contact {
+    width: 100%;
+
+    max-width: 100%;
+
+    font-size: 13px;
+  }
+
+
+  .qr-section h2 {
+    font-size: 18px;
+  }
+}
+
+
+/* ================================
+   SMALL MOBILE
+================================ */
+
+@media (max-width: 480px) {
+
+  .certificate-table {
+    font-size: 13px;
+  }
+
+
+  .certificate-table td:first-child {
+    padding-right: 8px;
+  }
+
+
+  .certificate-table td:last-child {
+    padding-left: 8px;
+  }
+}
